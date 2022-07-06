@@ -13,7 +13,7 @@ function News() {
     return (
         <>
             <Drawer drawer={drawer} action={drawerAction.toggle} />
-            <HeaderHome action={drawerAction.toggle}/>
+            <HeaderHome action={drawerAction.toggle} />
             <HeroNews
                 title="Blogs"
                 breadcrumb={[
