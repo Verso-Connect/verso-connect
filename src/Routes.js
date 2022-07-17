@@ -6,6 +6,7 @@ import ScrollToTop from './components/Helper/ScrollToTop';
 import Home from './components/Home';
 import Blog from './components/Blog';
 import Categories from './components/Categories';
+import Login from './components/Login/Login';
 
 function Routes() {
     const [loading, setLoading] = useState(true);
@@ -32,6 +33,7 @@ function Routes() {
                             <Route exact path="/blog" component={Blog} />
                             <Route exact path="/categories" component={Categories} />
                             <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/login" component={Login} />
                             <Route component={Error} />
                         </Switch>
                     </ScrollToTop>
@@ -39,7 +41,7 @@ function Routes() {
             </div>
         </>
 
-        
+    
     );
 }
 
