@@ -27,7 +27,7 @@ function HeaderHome({ action }) {
                             </div>
                             <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                                 <div className="appie-btn-box text-right">
-                                    <a className="login-btn" href="">
+                                    <a className="login-btn" href="/login">
                                         <i className="fal fa-user"></i> Login
                                     </a>
                                     <a className="main-btn ml-30" href="">
